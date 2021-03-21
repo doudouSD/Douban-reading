@@ -1,0 +1,149 @@
+.w1 {
+    /* 版心 */
+    width: 1225px;
+    margin: 0 auto;
+}
+
+.w2 {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut1 {
+    height: 28px;
+    line-height: 28px;
+    background-color: #545652;
+    min-width: 950px;
+}
+
+.shortcut1 .fl ul li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shortcut1 .fr ul li {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shortcut1 a {
+    color: #d5d5d5;
+}
+
+.header {
+    height: 75px;
+    line-height: 75px;
+    background-color: #f6f6f1;
+    border-bottom: 1px solid #e5ebe4;
+}
+
+.logo {
+    width: 145px;
+    height: 56px;
+    margin-top: 25px;
+}
+
+.logo a {
+    display: block;
+    height: 50px;
+    background: url("../images/01.logo_book.png") no-repeat;
+    background-size: 115px;
+    font-size: 0;
+}
+
+.search {
+    position: relative;
+    top: 25px;
+    left: 15px;
+    width: 450px;
+    height: 25px;
+}
+
+.search input {
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.search button {
+    position: absolute;
+    left: 400px;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(253, 253, 253);
+}
+
+.bookannual a {
+    display: block;
+    margin-left: 850px;
+    background: url("../images/03.annual_2020.png") no-repeat;
+    background-size: 160px;
+    font-size: 0;
+}
+
+.shortcut2 {
+    margin-left: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f6f6f1;
+    min-width: 950px;
+}
+
+.shortcut2 .fl li {
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.shortcut2 a {
+    color: #8c563c;
+}
+
+.index {
+    width: 100%;
+}
+
+.index.left {
+    width: 710px;
+    padding-right: 25px;
+}
+
+.bookbox1 {
+    margin-bottom: 50px;
+}
+
+.bookbox1 h2 {
+    font-weight: bold;
+    width: 710px;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bookbox1 h2 .more {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.bd {
+    height: 489px;
+    width: 710px;
+    background-color: blueviolet;
+}
+
+.list {
+    width: 700px;
+    font-size: 0;
+    margin: 0 -25px 0 0;
+}
