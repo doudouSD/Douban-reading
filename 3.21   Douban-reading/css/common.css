@@ -1,0 +1,223 @@
+.w1 {
+    /* 版心 */
+    width: 1225px;
+    margin: 0 auto;
+}
+
+.w2 {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.hover1 a:hover {
+    color: #faf6f6;
+    background-color: #3377aa;
+}
+
+.hover2 a:hover {
+    background-color: #e8e8e8;
+}
+
+.shortcut1 {
+    height: 28px;
+    line-height: 28px;
+    background-color: #545652;
+    min-width: 950px;
+}
+
+.shortcut1 .fl ul li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shortcut1 .fr ul li {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shortcut1 a {
+    color: #d5d5d5;
+}
+
+.shortcut1 a:hover {
+    color: #faf6f6
+}
+
+.header {
+    height: 75px;
+    line-height: 75px;
+    background-color: #f6f6f1;
+    border-bottom: 1px solid #e5ebe4;
+}
+
+.logo {
+    width: 145px;
+    height: 56px;
+    margin-top: 25px;
+}
+
+.logo a {
+    display: block;
+    height: 50px;
+    background: url("../images/01.logo_book.png") no-repeat;
+    background-size: 115px;
+    font-size: 0;
+}
+
+.search {
+    position: relative;
+    top: 25px;
+    left: 15px;
+    width: 450px;
+    height: 25px;
+}
+
+.search input {
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.search button {
+    position: absolute;
+    left: 400px;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(253, 253, 253);
+}
+
+.bookannual a {
+    display: block;
+    margin-left: 850px;
+    background: url("../images/03.annual_2020.png") no-repeat;
+    background-size: 160px;
+    font-size: 0;
+}
+
+.shortcut2 {
+    margin-left: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f6f6f1;
+    min-width: 950px;
+}
+
+.shortcut2 .fl li {
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.shortcut2 a {
+    color: #8c563c;
+}
+
+.shortcut2 a:hover {
+    color: #f6f6f1;
+    background-color: #614e3c;
+}
+
+.index {
+    width: 100%;
+}
+
+.index.left {
+    width: 710px;
+    padding-right: 25px;
+}
+
+.bookbox1 {
+    margin-bottom: 50px;
+}
+
+.bookbox1 h2 {
+    font-weight: bold;
+    width: 710px;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bookbox1 h2 .more {
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.bookbox1 h2 div a {
+    font-size: 5px;
+}
+
+​.bd {
+    height: 489px;
+    width: 710px;
+}
+
+.ul {
+    width: 710px;
+    display: inline-block;
+}
+
+.ul li {
+    width: 115px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.details,
+.more .year,
+.more .author,
+.more .publish {
+    font-size: 14px;
+    width: 300px;
+    height: 172px;
+    justify-content: center;
+    display: none;
+}
+
+.cover:hover .more {
+    display: block;
+}
+
+.cover a {
+    font-size: 14px;
+    width: 115px;
+    height: 172px;
+    justify-content: center;
+}
+
+.cover:hover a {
+    display: block;
+}
+
+a img {
+    display: block;
+    width: 115px;
+    height: 172px;
+    align-self: flex-end;
+    border-width: 0;
+}
+
+.author {
+    color: #333;
+    width: 102px;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.bd .info .title {
+    font-size: 12px;
+}
