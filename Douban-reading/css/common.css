@@ -1,149 +1,186 @@
 .w1 {
-    /* 版心 */
-    width: 1225px;
-    margin: 0 auto;
+  /* 版心 */
+  width: 1225px;
+  margin: 0 auto;
 }
 
 .w2 {
-    width: 1050px;
-    margin: 0 auto;
+  width: 1100px;
+  margin: 0 auto;
 }
 
 .fl {
-    float: left;
+  float: left;
 }
 
 .fr {
-    float: right;
+  float: right;
+}
+
+.hover1 a:hover {
+  color: #faf6f6;
+  background-color: #3377aa;
+}
+
+.hover2 a:hover {
+  background-color: #e8e8e8;
 }
 
 .shortcut1 {
-    height: 28px;
-    line-height: 28px;
-    background-color: #545652;
-    min-width: 950px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #545652;
+  min-width: 950px;
 }
 
 .shortcut1 .fl ul li {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+  font-size: 13px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .shortcut1 .fr ul li {
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px;
+  font-size: 13px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .shortcut1 a {
-    color: #d5d5d5;
+  color: #d5d5d5;
+}
+
+.shortcut1 a:hover {
+  color: #faf6f6
 }
 
 .header {
-    height: 75px;
-    line-height: 75px;
-    background-color: #f6f6f1;
-    border-bottom: 1px solid #e5ebe4;
+  height: 75px;
+  line-height: 75px;
+  background-color: #f6f6f1;
+  border-bottom: 1px solid #e5ebe4;
 }
 
 .logo {
-    width: 145px;
-    height: 56px;
-    margin-top: 25px;
+  width: 145px;
+  height: 50px;
+  margin-top: 25px;
 }
 
 .logo a {
-    display: block;
-    height: 50px;
-    background: url("../images/01.logo_book.png") no-repeat;
-    background-size: 115px;
-    font-size: 0;
+  display: block;
+  height: 50px;
+  background: url("../images/01.logo_book.png") no-repeat;
+  background-size: 115px;
+  font-size: 0;
 }
 
 .search {
-    position: relative;
-    top: 25px;
-    left: 15px;
-    width: 450px;
-    height: 25px;
+  position: relative;
+  top: 25px;
+  left: 15px;
+  width: 450px;
+  height: 25px;
 }
 
 .search input {
-    position: absolute;
-    width: 400px;
-    height: 25px;
-    padding-left: 15px;
+  position: absolute;
+  width: 400px;
+  height: 25px;
+  padding-left: 15px;
 }
 
 .search button {
-    position: absolute;
-    left: 400px;
-    width: 50px;
-    height: 25px;
-    background-color: rgb(253, 253, 253);
+  position: absolute;
+  left: 400px;
+  width: 50px;
+  height: 25px;
+  background-color: rgb(253, 253, 253);
 }
 
 .bookannual a {
-    display: block;
-    margin-left: 850px;
-    background: url("../images/03.annual_2020.png") no-repeat;
-    background-size: 160px;
-    font-size: 0;
+  display: block;
+  margin-left: 850px;
+  background: url("../images/03.annual_2020.png") no-repeat;
+  background-size: 160px;
+  font-size: 0;
 }
 
 .shortcut2 {
-    margin-left: 0;
-    height: 50px;
-    line-height: 50px;
-    background-color: #f6f6f1;
-    min-width: 950px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f6f6f1;
+  min-width: 950px;
 }
 
-.shortcut2 .fl li {
-    float: left;
-    margin-right: 20px;
-    font-size: 16px;
+.shortcut2 .fl a{
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
 }
 
 .shortcut2 a {
-    color: #8c563c;
+  color: #8c563c;
+}
+
+.shortcut2 a:hover {
+  color: #f6f6f1;
+  background-color: #614e3c;
 }
 
 .index {
-    width: 100%;
+  width: 100%;
 }
 
 .index.left {
-    width: 710px;
-    padding-right: 25px;
+  width: 710px;
+  padding-right: 25px;
 }
 
-.bookbox1 {
-    margin-bottom: 50px;
-}
 
 .bookbox1 h2 {
-    font-weight: bold;
-    width: 710px;
-    padding-bottom: 3px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  width: 60%;
+  border-bottom: 1px solid #ddd;
 }
 
 .bookbox1 h2 .more {
-    font-size: 13px;
-    font-weight: normal;
+  font-size: 13px;
+  font-weight: normal;
+  margin-left: 10px;
 }
 
-.bd {
-    height: 489px;
-    width: 710px;
-    background-color: blueviolet;
+.bookbox1 h2 div a {
+  font-size: 5px;
 }
 
-.list {
-    width: 700px;
-    font-size: 0;
-    margin: 0 -25px 0 0;
+​.bd {
+  height: 489px;
+  width: 60%;
+}
+
+/* 创建并排的三个非等列 */
+.column1 {
+  float: left;
+  width: 80%;
+}
+
+.column2 {
+  float: left;
+  width: 40%;
+}
+
+/* 清除列之后的浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 响应式布局 - 创建堆叠而非并排的三列 */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }
