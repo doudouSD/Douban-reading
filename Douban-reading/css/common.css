@@ -5,7 +5,7 @@
 }
 
 .w2 {
-  width: 1100px;
+  width: 1050px;
   margin: 0 auto;
 }
 
@@ -130,7 +130,7 @@
   background-color: #614e3c;
 }
 
-.culumn1 .hd {
+.column1 .hd {
   height: 31px;
   border-bottom: 1px solid #ddd;
 }
@@ -151,11 +151,49 @@
   font-size: 5px;
 }
 
+.column1 .bd .books .more-meta {
+  font-size: 0;
+}
+
+.column1 .bd {
+  margin-top: 15px;
+}
+
+.column1 .bd .books {
+  font-size: 13px;
+}
+
+.column1 .bd .books .title a {
+  font-size: 14px;
+}
+
+.column1 .bd .books .title a:hover {
+  color: #faf6f6;
+  background-color: #3377aa;
+}
+
+.column1 .bd .books .cover .img {
+  width:115px;
+  height:170px
+}
+
+.column1 .bd .books ul li {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.column1 .bd .books ul .right-none {
+  margin-right: 0;
+}
 
 .culumn2 .hd {
   margin-left: 30px;
   padding-left: 30px;
   height: 28px;
+}
+
+.culumn2 .hd .hdd {
   border-bottom: 1px solid #ddd;
 }
 
@@ -187,12 +225,10 @@
   padding-inline-start: 40px;
 }
 
-
 .hot-tags li {
   display: list-item;
   text-align: -webkit-match-parent;
   margin-bottom: 15px;
-  border-bottom: 1px dashed #ddd;
 }
 
 .clearfix {
@@ -212,6 +248,10 @@
   float: none;
 }
 
+.hot-tags ul {
+  border-bottom: 1px dashed #ddd;
+}
+
 .hot-tags ul li {
   width: auto;
   margin: 0;
@@ -219,6 +259,10 @@
   border: none;
   float: left;
   display: inline;
+}
+
+.column2 .clearfix .more_tag {
+  color: #999999;
 }
 
 .hot-tags ul li a:hover {
@@ -238,6 +282,47 @@
   line-height: 20px;
 }
 
+.column2 .list2 .hd {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+
+.column2 .list2 {
+  margin-left: 40px;
+}
+
+.column2 .list2 .bd .books-top .book-title {
+  float: left;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.column2 .list2 .bd .books-top .book-title a:hover {
+  color: #faf6f6;
+  background-color: #3377aa;
+}
+
+.column2 .list2 .bd .books-top .book-title .author {
+  font-size: 13px;
+  margin-left: 1.2em;
+}
+
+.column2 .list2 .bd .books-top .buy {
+  font-size: 13px;
+  margin-top: 17px;
+  color: #999999;
+}
+
+.column2 .list2 .bd .books-top li {
+  height: 50px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.column2 .list2 .bd .books-top li:hover {
+  background-color: #f9f9f6;
+}
+
+/*
 .carousel {
   position: relative;
   height: 351px;
@@ -336,6 +421,8 @@ p {
   align-self: flex-end;
 
 }
+
+*/
 /* 创建并排的2个非等列 */
 .column1 {
   float: left;
@@ -347,7 +434,7 @@ p {
   float: left;
   width: 30%;
   padding-top: 15px;
-  margin-left: 30px;
+  margin-left: 35px;
   padding-right: 10px;
   margin-top: 30px;
 }
