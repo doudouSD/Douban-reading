@@ -1,0 +1,35 @@
+.r-logo a {
+display: block;
+height: 50px;
+background: url("../images/13.dou.png") no-repeat;
+background-size: 115px;
+font-size: 0;
+}
+
+.regist {
+  display: flex;
+}
+
+.regist div img {
+  width: 600px;
+}
+
+.regist .user {
+  margin-top: 300px;
+}
+
+.regist .user input {
+  height: 30px;
+  width: 200px;
+}
+
+
+.regist .user button {
+  height: 30px;
+}
+
+.regist .success button {
+  margin-top: 20px;
+  height: 30px;
+  width: 60px;
+}

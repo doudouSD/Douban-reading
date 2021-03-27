@@ -1,0 +1,36 @@
+.w .main ul {
+  display: flex;
+}
+
+.w .main ul img {
+  height: 425px;
+  width: 1280px;
+}
+
+.w .main .buttom {
+  height: 30px;
+  line-height: 30px;
+  background-color: cadetblue;
+}
+
+.w .main .buttom a {
+  color: black;
+}
+
+.douping {
+  display: flex;
+}
+
+.douping-list {
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+.douping-list a {
+  color: #a3a3a3;
+  margin-left: 20px;
+}
+
+.douping-list a:hover {
+  color: #3377aa;
+}

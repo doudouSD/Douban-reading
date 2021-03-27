@@ -1,0 +1,275 @@
+.column1 .bookbox1 {
+  margin-bottom: 20px;
+}
+
+.column1 .bookbox1 .hd {
+  height: 31px;
+  border-bottom: 1px solid #ddd;
+}
+
+.column1 .bookbox1 .hd .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+
+.column1 .bookbox1 .hd .more a {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.column1 .bookbox1 .hd .num a {
+  font-size: 5px;
+}
+
+.column1 .bookbox1 .bd {
+  margin-top: 15px;
+}
+
+.column1 .bookbox1 .bd .books .more-meta {
+  font-size: 0;
+}
+
+.column1 .bookbox1 .bd .books {
+  font-size: 13px;
+}
+
+.column1 .bookbox1 .bd .books .title a {
+  font-size: 14px;
+}
+
+.column1 .bookbox1 .bd .books .title a:hover {
+  color: #faf6f6;
+  background-color: #3377aa;
+}
+
+.column1 .bookbox1 .bd .books .cover .img {
+  width:115px;
+  height:170px
+}
+
+.column1 .bookbox1 .bd .books ul li {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.column1 .bookbox1 .bd .books ul .right-none {
+  margin-right: 0;
+}
+
+.column1 .bookbox1 .bd .books .books-lists {
+  display: none;
+}
+
+
+
+.column1 .book_information {
+  margin-top: 500px;
+}
+
+.column1 .book_information .hd {
+  height: 27px;
+  border-bottom: 1px solid #ddd;
+}
+
+.column1 .book_information .hd .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column1 .book_information .hd .num a {
+  margin-left: 5px;
+  font-size: 5px;
+}
+
+.column1 .book_information .bd .information ul{
+  margin-top: 30px;
+  height: 150px;
+  border: 1px solid #dddddd;
+}
+
+.column1 .book_information .bd .information ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  display: none;
+}
+
+.column1 .book_information .bd .information ul li .author,
+.column1 .book_information .bd .information ul li .details 
+{
+  color: black;
+}
+
+.column1 .book_information .bd .information ul li img {
+  width: 60px;
+  height: 100px;
+}
+
+.column1 .ad {
+  margin-top: 50px;
+}
+
+.column1 .ad img {
+  width: 680px;
+}
+
+.culumn2 .hd {
+  margin-left: 30px;
+  padding-left: 30px;
+  height: 28px;
+}
+
+.culumn2 .hd .hdd {
+  border-bottom: 1px solid #ddd;
+}
+
+.list1 .hd .title {
+  margin-left: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+
+.list1 .hd .more a {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.list1 .hd .num a {
+  font-size: 5px;
+}
+
+.hot-tags {
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.hot-tags {
+  display: block;
+  list-style-type: disc;
+  padding-inline-start: 40px;
+}
+
+.hot-tags li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-bottom: 15px;
+}
+
+.clearfix {
+  display: block;
+  zoom: 1;
+  margin-bottom: 20px;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: '';
+  line-height: 0;
+}
+
+.hot-tags .tag_title {
+  display: block;
+  float: none;
+}
+
+.hot-tags ul {
+  border-bottom: 1px dashed #ddd;
+}
+
+.hot-tags ul li {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  float: left;
+  display: inline;
+}
+
+.column2 .clearfix .more_tag {
+  color: #999999;
+}
+
+.hot-tags ul li a:hover {
+  background-color: #e8e8e8;
+}
+
+.tag, .tag:link, .tag:visited {
+  width: auto;
+  word-break: keep-all;
+  white-space: nowrap;
+  background-color: #f5f5f5;
+  color: #37A;
+  font-size: 13px;
+  padding: 2px 11px 0;
+  display: inline-block;
+  margin: 0 3px 5px 0;
+  line-height: 20px;
+}
+
+.column2 .list2 .hd {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+
+.column2 .list2 {
+  margin-left: 40px;
+}
+
+.column2 .list2 .bd .books-top .book-title {
+  float: left;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.column2 .list2 .bd .books-top .book-title a:hover {
+  color: #faf6f6;
+  background-color: #3377aa;
+}
+
+.column2 .list2 .bd .books-top .book-title .author {
+  font-size: 13px;
+  margin-left: 1.2em;
+}
+
+.column2 .list2 .bd .books-top .buy {
+  font-size: 13px;
+  margin-top: 17px;
+  color: #999999;
+}
+
+.column2 .list2 .bd .books-top li {
+  height: 50px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.column2 .list2 .bd .books-top li:hover {
+  background-color: #f9f9f6;
+}
+
+.bottom {
+  display: flex;
+  font-size: 14px;
+  border-top: 1px dashed #ddd;
+  height: 40px;
+  line-height: 40px;
+}
+
+.bottom .bottom-left {
+  display: flex;
+  margin-left: 40px;
+}
+
+.bottom .bottom-left li {
+  margin-right: 6px;
+}
+
+.bottom .bottom-right {
+  margin-left: 110px;
+}

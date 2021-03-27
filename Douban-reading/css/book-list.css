@@ -1,0 +1,43 @@
+.column1 h2 {
+  color: #494949;
+}
+
+.column1 .main img {
+  width:140px;
+  height:185px
+}
+
+.column1 .main {
+  display: flex;
+  margin-top: 15px;
+}
+
+.column1 .main .information {
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.column1 .main .information .before {
+  color: #747774;
+}
+
+.column1 .h {
+  color: #007722;
+  font-size: 18px;
+}
+
+.column1 .content {
+  font-size: 14px;
+}
+
+.column1 .clearfix{
+  display: flex;
+}
+
+.column1 .clearfix li{
+  margin-right: 20px;
+}
+
+.column1 .clearfix li:hover {
+  background-color:  #e8e8e8;
+}
